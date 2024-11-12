@@ -8,7 +8,10 @@ export const translations = {
     seconds: "ثانية",
     since: "منذ",
     darkMode: "الوضع الليلي",
-    lightMode: "الوضع النهاري"
+    lightMode: "الوضع النهاري",
+    goalDate: "27 سبتمبر 2024",
+    goalTime: "الدقيقة 76:42",
+    goalDescription: "في لحظة تاريخية لن تُنسى، سجل ناصر منسي هدفاً خالداً في الدقيقة 76 والثانية 42 من المباراة. هذا الهدف الذي جاء في توقيت حاسم من المباراة، أشعل حماس الجماهير وأصبح علامة فارقة في تاريخ النادي الأهلي."
   },
   en: {
     title: "Nasser Munsi's Historic Goal",
@@ -19,7 +22,10 @@ export const translations = {
     seconds: "seconds",
     since: "since",
     darkMode: "Dark Mode",
-    lightMode: "Light Mode"
+    lightMode: "Light Mode",
+    goalDate: "September 27, 2024",
+    goalTime: "Minute 76:42",
+    goalDescription: "In an unforgettable historic moment, Nasser Munsi scored an immortal goal at minute 76 and 42 seconds of the match. This goal, which came at a crucial time in the match, ignited the fans' enthusiasm and became a landmark in Al-Ahly Club's history."
   },
   fr: {
     title: "But Historique de Nasser Munsi",
@@ -30,7 +36,10 @@ export const translations = {
     seconds: "secondes",
     since: "depuis",
     darkMode: "Mode Sombre",
-    lightMode: "Mode Clair"
+    lightMode: "Mode Clair",
+    goalDate: "27 septembre 2024",
+    goalTime: "Minute 76:42",
+    goalDescription: "Dans un moment historique inoubliable, Nasser Munsi a marqué un but immortel à la 76ème minute et 42 secondes du match. Ce but, survenu à un moment crucial du match, a enflammé l'enthousiasme des supporters et est devenu un moment marquant dans l'histoire du Club Al-Ahly."
   },
   de: {
     title: "Nasser Munsis Historisches Tor",
@@ -41,7 +50,10 @@ export const translations = {
     seconds: "Sekunden",
     since: "seit",
     darkMode: "Dunkelmodus",
-    lightMode: "Hellmodus"
+    lightMode: "Hellmodus",
+    goalDate: "27. September 2024",
+    goalTime: "Minute 76:42",
+    goalDescription: "In einem unvergesslichen historischen Moment erzielte Nasser Munsi in der 76. Minute und 42. Sekunde des Spiels ein unsterbliches Tor. Dieses Tor, das in einer entscheidenden Phase des Spiels fiel, entfachte die Begeisterung der Fans und wurde zu einem Meilenstein in der Geschichte des Al-Ahly Clubs."
   },
   es: {
     title: "Gol Histórico de Nasser Munsi",
@@ -52,6 +64,9 @@ export const translations = {
     seconds: "segundos",
     since: "desde",
     darkMode: "Modo Oscuro",
-    lightMode: "Modo Claro"
+    lightMode: "Modo Claro",
+    goalDate: "27 de septiembre de 2024",
+    goalTime: "Minuto 76:42",
+    goalDescription: "En un momento histórico inolvidable, Nasser Munsi marcó un gol inmortal en el minuto 76 y 42 segundos del partido. Este gol, que llegó en un momento crucial del partido, encendió el entusiasmo de los aficionados y se convirtió en un hito en la historia del Club Al-Ahly."
   }
 };
