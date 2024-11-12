@@ -11,7 +11,7 @@ export const translations = {
     lightMode: "الوضع النهاري",
     goalDate: "27 سبتمبر 2024",
     goalTime: "الدقيقة 76:42",
-    goalDescription: "في لحظة تاريخية لن تُنسى، سجل ناصر منسي هدفاً خالداً في الدقيقة 76 والثانية 42 من المباراة. هذا الهدف الذي جاء في توقيت حاسم من المباراة، أشعل حماس الجماهير وأصبح علامة فارقة في تاريخ النادي الأهلي."
+    goalDescription: "في لحظة تاريخية لن تُنسى، سجل ناصر منسي هدفاً خالداً من بعده لن تكون منسياً لن تكون منسيا يا منسي في الدقيقة 76 والثانية 42 من المباراة. هذا الهدف الذي جاء في توقيت حاسم من المباراة، أشعل حماس الجماهير الزملكاوية."
   },
   en: {
     title: "Nasser Munsi's Historic Goal",
@@ -25,7 +25,8 @@ export const translations = {
     lightMode: "Light Mode",
     goalDate: "September 27, 2024",
     goalTime: "Minute 76:42",
-    goalDescription: "In an unforgettable historic moment, Nasser Munsi scored an immortal goal at minute 76 and 42 seconds of the match. This goal, which came at a crucial time in the match, ignited the fans' enthusiasm and became a landmark in Al-Ahly Club's history."
+    goalDescription: "In a historic moment that will never be forgotten, Nasser Mansi scored an unforgettable goal. You will not be forgotten, Mansi, you will not be forgotten. He scored in the 76th minute and 42 seconds of the match. This goal, which came at a crucial moment in the game, ignited the passion of Zamalek fans.
+"
   },
   fr: {
     title: "But Historique de Nasser Munsi",
@@ -39,7 +40,9 @@ export const translations = {
     lightMode: "Mode Clair",
     goalDate: "27 septembre 2024",
     goalTime: "Minute 76:42",
-    goalDescription: "Dans un moment historique inoubliable, Nasser Munsi a marqué un but immortel à la 76ème minute et 42 secondes du match. Ce but, survenu à un moment crucial du match, a enflammé l'enthousiasme des supporters et est devenu un moment marquant dans l'histoire du Club Al-Ahly."
+    goalDescription: "Dans un moment historique inoubliable, Nasser Mansi a marqué un but mémorable. Tu ne seras pas oublié, Mansi, tu ne seras pas oublié. Il a marqué à la 76e minute et 42 secondes du match. Ce but, venu à un moment décisif du jeu, a enflammé la passion des supporters de Zamalek.
+
+"
   },
   de: {
     title: "Nasser Munsis Historisches Tor",
@@ -53,7 +56,9 @@ export const translations = {
     lightMode: "Hellmodus",
     goalDate: "27. September 2024",
     goalTime: "Minute 76:42",
-    goalDescription: "In einem unvergesslichen historischen Moment erzielte Nasser Munsi in der 76. Minute und 42. Sekunde des Spiels ein unsterbliches Tor. Dieses Tor, das in einer entscheidenden Phase des Spiels fiel, entfachte die Begeisterung der Fans und wurde zu einem Meilenstein in der Geschichte des Al-Ahly Clubs."
+    goalDescription: "In einem historischen Moment, der nie vergessen werden wird, erzielte Nasser Mansi ein unvergessliches Tor. Du wirst nicht vergessen, Mansi, du wirst nicht vergessen. Er traf in der 76. Minute und 42 Sekunden des Spiels. Dieses Tor, das in einem entscheidenden Moment des Spiels fiel, entfachte die Leidenschaft der Zamalek-Fans.
+
+"
   },
   es: {
     title: "Gol Histórico de Nasser Munsi",
@@ -67,6 +72,13 @@ export const translations = {
     lightMode: "Modo Claro",
     goalDate: "27 de septiembre de 2024",
     goalTime: "Minuto 76:42",
-    goalDescription: "En un momento histórico inolvidable, Nasser Munsi marcó un gol inmortal en el minuto 76 y 42 segundos del partido. Este gol, que llegó en un momento crucial del partido, encendió el entusiasmo de los aficionados y se convirtió en un hito en la historia del Club Al-Ahly."
+    goalDescription: "En un momento histórico que nunca será olvidado, Nasser Mansi marcó un gol inolvidable. No serás olvidado, Mansi, no serás olvidado. Marcó en el minuto 76 y 42 segundos del partido. Este gol, que llegó en un momento crucial del juego, encendió la pasión de los aficionados del Zamalek.
+
+
+
+
+
+
+"
   }
 };
