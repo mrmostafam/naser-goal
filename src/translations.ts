@@ -26,6 +26,7 @@ export const translations = {
     goalDate: "September 27, 2024",
     goalTime: "Minute 76:42",
     goalDescription: "In a historic moment that will never be forgotten, Nasser Mansi scored an unforgettable goal. You will not be forgotten, Mansi, you will not be forgotten. He scored in the 76th minute and 42 seconds of the match. This goal, which came at a crucial moment in the game, ignited the passion of Zamalek fans."
+
   },
   fr: {
     title: "But Historique de Nasser Munsi",
