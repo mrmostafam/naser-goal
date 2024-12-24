@@ -2,23 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
+@keyframes fall {
+  0% {
+    transform: translateY(-10vh) rotate(0deg);
     opacity: 1;
-    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
   }
 }
 
-.animate-fadeIn {
-  animation: fadeIn 0.5s ease-out forwards;
-}
-
-@layer base {
-  body {
-    @apply antialiased;
-  }
+.animate-fall {
+  animation: fall linear infinite;
 }

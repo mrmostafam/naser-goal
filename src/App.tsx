@@ -1,86 +1,60 @@
-import React, { useState, useEffect } from 'react';
-import { TimeUnit } from './components/TimeUnit';
-import { LanguageSelector } from './components/LanguageSelector';
+import React from 'react';
+import { TimeCounter } from './components/TimeCounter/TimeCounter';
 import { ThemeToggle } from './components/ThemeToggle';
-import { GoalDetails } from './components/GoalDetails';
-import { useTimeElapsed } from './hooks/useTimeElapsed';
-import { translations } from './translations';
-import { Trophy } from 'lucide-react';
-import type { Language } from './types';
+import { LanguageSelector } from './components/LanguageSelector';
+import { Background } from './components/Background';
+import { Confetti } from './components/Confetti';
+import { PlayerImage } from './components/PlayerImage';
+import { translations } from './i18n/translations';
 
-function App() {
-  const [darkMode, setDarkMode] = useState(false);
-  const [lang, setLang] = useState<Language>('ar');
-  const timeElapsed = useTimeElapsed();
+export default function App() {
+  const [isDark, setIsDark] = React.useState(false);
+  const [lang, setLang] = React.useState('ar');
 
-  useEffect(() => {
-    if (darkMode) {
+  React.useEffect(() => {
+    if (isDark) {
       document.documentElement.classList.add('dark');
     } else {
       document.documentElement.classList.remove('dark');
     }
-  }, [darkMode]);
+  }, [isDark]);
 
-  const t = translations[lang];
+  // Goal time: September 27, 2024, at 10:00 + 76:42 minutes
+  const goalDate = new Date('2024-09-27T11:16:42');
 
   return (
-    <div 
-      className={`min-h-screen transition-colors duration-300 ${
-        darkMode ? 'bg-gradient-to-b from-gray-900 to-gray-800 text-white' : 'bg-gradient-to-b from-white to-gray-50 text-gray-900'
-      }`}
-    >
-      {/* Red stripes with gradient */}
-      <div className="fixed top-0 left-0 right-0 z-50">
-        <div className="h-2 bg-gradient-to-r from-red-700 via-red-600 to-red-700"></div>
-        <div className="h-2 bg-gradient-to-r from-red-700 via-red-600 to-red-700 mt-1"></div>
-      </div>
-
-      <div className="container mx-auto px-4 pt-20 pb-8">
-        <div className="flex justify-between items-center mb-12 px-4">
-          <ThemeToggle darkMode={darkMode} onToggle={() => setDarkMode(!darkMode)} />
-          <LanguageSelector 
-            lang={lang} 
-            darkMode={darkMode} 
-            onChange={(newLang) => setLang(newLang)} 
+    <div dir={lang === 'ar' ? 'rtl' : 'ltr'} className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white relative overflow-hidden">
+      <Background />
+      <Confetti />
+      
+      <div className="container mx-auto px-4 py-8 relative">
+        <div className="flex justify-between items-center mb-8 md:mb-12">
+          <LanguageSelector currentLang={lang} onLanguageChange={setLang} />
+          <ThemeToggle 
+            isDark={isDark} 
+            onToggle={() => setIsDark(!isDark)} 
+            translations={translations[lang]} 
           />
         </div>
 
-        <div className="text-center" dir={lang === 'ar' ? 'rtl' : 'ltr'}>
-          <div className="flex items-center justify-center gap-4 mb-8">
-            <Trophy className="w-8 h-8 md:w-10 md:h-10 text-yellow-500 animate-pulse" />
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">
-              {t.title}
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12 md:mb-16">
+            <h1 className="text-3xl md:text-5xl font-bold mb-4 md:mb-6 bg-gradient-to-r from-red-600 to-red-500 bg-clip-text text-transparent">
+              {translations[lang].title}
             </h1>
-            <Trophy className="w-8 h-8 md:w-10 md:h-10 text-yellow-500 animate-pulse" />
+            <p className="text-lg md:text-xl mb-6 md:mb-8 text-gray-600 dark:text-gray-300">
+              {translations[lang].description}
+            </p>
           </div>
 
-          <GoalDetails lang={lang} darkMode={darkMode} />
+          <TimeCounter 
+            goalDate={goalDate}
+            translations={translations[lang]}
+          />
 
-          <p className="text-lg md:text-xl my-12 opacity-75">
-            {t.since}
-          </p>
-
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 lg:gap-8 max-w-6xl mx-auto">
-            {[
-              { value: timeElapsed.months, label: t.months },
-              { value: timeElapsed.fridays, label: t.fridays },
-              { value: timeElapsed.hours, label: t.hours },
-              { value: timeElapsed.minutes, label: t.minutes },
-              { value: timeElapsed.seconds, label: t.seconds }
-            ].map((item, index) => (
-              <TimeUnit
-                key={index}
-                value={item.value}
-                label={item.label}
-                darkMode={darkMode}
-                index={index}
-              />
-            ))}
-          </div>
+          <PlayerImage translations={translations[lang]} />
         </div>
       </div>
     </div>
   );
 }
-
-export default App;
