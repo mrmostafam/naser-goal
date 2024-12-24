@@ -12,7 +12,7 @@ export const PlayerImage: React.FC<PlayerImageProps> = ({ translations }) => {
       <div className="relative max-w-lg mx-auto">
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl" />
         <img
-          src="https://i.imgur.com/vxocqGQ.jpg"
+          src="background.jpg"
           alt="Nasser Mansi"
           className="w-full h-auto rounded-2xl shadow-2xl transform transition-transform duration-300 hover:scale-[1.02]"
         />
