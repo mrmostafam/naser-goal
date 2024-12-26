@@ -15,7 +15,7 @@ export const translations = {
     goalVideoTitle: 'شاهد الهدف التاريخي',
     secondVideoTitle: 'احتفالات الجماهير',
     MessageBox: 'سوبر القرن أبيض بخطين حُمر 🇦🇹',
-    secondMessage: 'الزمالك بطل افريقيا'
+    secondMessage: 'الزمالك بطل افريقيا 🥇'
   },
   en: {
     title: "Nasser Mansi's Historic Goal",
