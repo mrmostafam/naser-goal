@@ -21,7 +21,7 @@ export const MediaSection: React.FC<MediaSectionProps> = ({ translations }) => {
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <MediaImage
-          src="https://i.imgur.com/xzQqXu3.jpeg"
+          src="https://i.imgur.com/FfZN5q2.jpeg"
           alt="Celebration Moment"
           title={translations.celebrationTitle}
         />
