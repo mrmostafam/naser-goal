@@ -5,6 +5,7 @@ import { LanguageSelector } from './components/LanguageSelector';
 import { Background } from './components/Background';
 import { Confetti } from './components/Confetti';
 import { PlayerImage } from './components/PlayerImage';
+import { MediaSection } from './components/MediaSection';
 import { translations } from './i18n/translations';
 
 export default function App() {
@@ -19,7 +20,6 @@ export default function App() {
     }
   }, [isDark]);
 
-  // Goal time: September 27, 2024, at 10:00 + 76:42 minutes
   const goalDate = new Date('2024-09-27T11:16:42');
 
   return (
@@ -52,7 +52,7 @@ export default function App() {
             translations={translations[lang]}
           />
 
-          <PlayerImage translations={translations[lang]} />
+          <MediaSection translations={translations[lang]} />
         </div>
       </div>
     </div>
