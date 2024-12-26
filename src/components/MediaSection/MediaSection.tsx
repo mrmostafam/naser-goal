@@ -26,7 +26,7 @@ export const MediaSection: React.FC<MediaSectionProps> = ({ translations }) => {
           title={translations.celebrationTitle}
         />
         <MediaImage
-          src="https://i.imgur.com/vxocqGQ.jpg"
+          src="https://i.imgur.com/3qMYNYw.png"
           alt="Goal Moment"
           title={translations.goalMomentTitle}
         />
@@ -34,14 +34,14 @@ export const MediaSection: React.FC<MediaSectionProps> = ({ translations }) => {
       
       <div className="max-w-3xl mx-auto">
         <MediaVideo
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          src="https://www.youtube.com/embed/Y0w9nETbHS8?si=bmCh40IY7gLy74d2"
           title={translations.goalVideoTitle}
         />
       </div>
 
       <div className="max-w-3xl mx-auto">
         <MediaVideo
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          src="https://www.youtube.com/embed/cnMTnDP5_kY?si=-AzhIn2Tu-cmH-pr"
           title={translations.secondVideoTitle}
         />
       </div>
