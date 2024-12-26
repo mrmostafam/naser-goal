@@ -32,8 +32,8 @@ export const translations = {
     goalMomentTitle: 'Goal Moment',
     goalVideoTitle: 'Watch the Historic Goal',
     secondVideoTitle: 'Fans Celebrations',
-    loveMessage: 'I Love Zamalek',
-    secondMessage: 'Super of the century white with two red lines. 🇦🇹'
+    loveMessage: 'Super of the century white with two red lines. 🇦🇹',
+    secondMessage: 'Zamalek, champion of Africa 🥇'
   },
   fr: {
     title: 'But Historique de Nasser Mansi',
@@ -51,7 +51,7 @@ export const translations = {
     goalVideoTitle: 'Regardez le But Historique',
     secondVideoTitle: 'Célébrations des Fans',
     loveMessage: 'Super du siècle blanc avec deux lignes rouges. 🇦🇹',
-    secondMessage: 'Zamalek est le Champion d\'Afrique'
+    secondMessage: 'Zamalek, champion d\'Afrique 🥇'
   },
   de: {
     title: 'Nasser Mansis Historisches Tor',
@@ -69,7 +69,7 @@ export const translations = {
     goalVideoTitle: 'Sehen Sie das historische Tor',
     secondVideoTitle: 'Fanfeiern',
     loveMessage: 'Super des Jahrhunderts weiß mit zwei roten Linien. 🇦🇹',
-    secondMessage: 'Zamalek ist Afrikas Champion'
+    secondMessage: 'Zamalek, Afrikameister 🥇'
   },
   es: {
     title: 'Gol Histórico de Nasser Mansi',
@@ -87,6 +87,6 @@ export const translations = {
     goalVideoTitle: 'Ver el Gol Histórico',
     secondVideoTitle: 'Celebraciones de los Aficionados',
     loveMessage: ' Súper del siglo blanco con dos líneas rojas. 🇦🇹',
-    secondMessage: 'Zamalek es el Campeón de África'
+    secondMessage: 'Zamalek, campeón de África 🥇'
   }
 };
