@@ -50,7 +50,7 @@ export const translations = {
     goalMomentTitle: 'Moment du But',
     goalVideoTitle: 'Regardez le But Historique',
     secondVideoTitle: 'Célébrations des Fans',
-    MessageBox: 'Super du siècle blanc avec deux lignes rouges. 🇦🇹,
+    MessageBox: 'Super du siècle blanc avec deux lignes rouges. 🇦🇹',
     secondMessage: 'Zamalek est le Champion d\'Afrique'
   },
   de: {
