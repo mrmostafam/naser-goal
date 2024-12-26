@@ -14,7 +14,7 @@ export const translations = {
     goalMomentTitle: 'لحظة تسجيل الهدف',
     goalVideoTitle: 'شاهد الهدف التاريخي',
     secondVideoTitle: 'احتفالات الجماهير',
-    loveMessage: 'سوبر القرن أبيض بخطين حُمر 🇦🇹',
+    MessageBox: 'سوبر القرن أبيض بخطين حُمر 🇦🇹',
     secondMessage: 'الزمالك بطل افريقيا'
   },
   en: {
@@ -32,7 +32,7 @@ export const translations = {
     goalMomentTitle: 'Goal Moment',
     goalVideoTitle: 'Watch the Historic Goal',
     secondVideoTitle: 'Fans Celebrations',
-    loveMessage: 'I Love Zamalek',
+    MessageBox: 'I Love Zamalek',
     secondMessage: 'Super of the century white with two red lines. 🇦🇹'
   },
   fr: {
@@ -50,7 +50,7 @@ export const translations = {
     goalMomentTitle: 'Moment du But',
     goalVideoTitle: 'Regardez le But Historique',
     secondVideoTitle: 'Célébrations des Fans',
-    loveMessage: 'Super du siècle blanc avec deux lignes rouges. 🇦🇹,
+    MessageBox: 'Super du siècle blanc avec deux lignes rouges. 🇦🇹,
     secondMessage: 'Zamalek est le Champion d\'Afrique'
   },
   de: {
@@ -68,7 +68,7 @@ export const translations = {
     goalMomentTitle: 'Tormoment',
     goalVideoTitle: 'Sehen Sie das historische Tor',
     secondVideoTitle: 'Fanfeiern',
-    loveMessage: 'Super des Jahrhunderts weiß mit zwei roten Linien. 🇦🇹',
+    MessageBox: 'Super des Jahrhunderts weiß mit zwei roten Linien. 🇦🇹',
     secondMessage: 'Zamalek ist Afrikas Champion'
   },
   es: {
@@ -86,7 +86,7 @@ export const translations = {
     goalMomentTitle: 'Momento del Gol',
     goalVideoTitle: 'Ver el Gol Histórico',
     secondVideoTitle: 'Celebraciones de los Aficionados',
-    loveMessage: ' Súper del siglo blanco con dos líneas rojas. 🇦🇹',
+    MessageBox: ' Súper del siglo blanco con dos líneas rojas. 🇦🇹',
     secondMessage: 'Zamalek es el Campeón de África'
   }
 };
