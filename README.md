@@ -70,3 +70,5 @@ The application supports multiple languages:
 ## License
 
 MIT License
+
+## Mostafa Mohamed
