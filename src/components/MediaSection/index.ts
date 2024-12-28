@@ -1,1 +1,0 @@
-export { MediaSection } from './MediaSection';
