@@ -20,7 +20,8 @@ export default function App() {
     }
   }, [isDark]);
 
-  const goalDate = new Date('2024-09-27T11:16:42');
+  // Updated goal date to September 27, 2024, at 10:46 Cairo time (UTC+2)
+  const goalDate = new Date('2024-09-27T08:46:00Z');  // 10:46 Cairo time = 08:46 UTC
 
   return (
     <div dir={lang === 'ar' ? 'rtl' : 'ltr'} className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white relative overflow-hidden">
